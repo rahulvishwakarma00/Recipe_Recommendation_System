@@ -1,0 +1,30 @@
+# HybridRecipeRecommender
+
+HybridRecipeRecommender is a data science project that scrapes recipe data from Allrecipes.com and uses a hybrid recommendation system to suggest recipes based on user preferences. The hybrid system combines content-based filtering and collaborative filtering techniques.
+
+## Installation
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/HybridRecipeRecommender.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd HybridRecipeRecommender
+    ```
+3. Install the required packages:
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. **Data Scraping:** Run the `data_scraping.ipynb` notebook to scrape recipes from Allrecipes.com and save the data to `recipes.csv`.
+2. **Data Preprocessing:** Run the `data_preprocessing.ipynb` notebook to preprocess the scraped data.
+3. **Content-Based Filtering:** Run the `content_based_filtering.ipynb` notebook to implement content-based filtering.
+4. **Collaborative Filtering:** Run the `collaborative_filtering.ipynb` notebook to implement collaborative filtering.
+5. **Hybrid Recommendation:** Run the `hybrid_recommender.ipynb` notebook to implement the hybrid recommendation system.
+
+## License
+
+This project is licensed under the MIT License.
